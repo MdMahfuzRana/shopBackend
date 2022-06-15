@@ -14,9 +14,8 @@ const port = process.env.PORT || 8080;
 const server = require('http').createServer(app);
 const io = new Server(server, {
     cors: {
-      origin: "https://shopbackendd.herokuapp.com",
+      origin: "https://bright-frangollo-17a59e.netlify.app/",
       methods: ["GET", "POST"],
-      rejectUnauthorized: false
     },
   });
 
